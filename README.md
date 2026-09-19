@@ -2,7 +2,19 @@
 
 A cinematic, editorial, interactive birthday website — built as a **reusable, privacy-friendly template**. It ships **EMPTY on purpose**: no personal names, no messages, no photos of anyone. You personalize it in minutes by editing a couple of files.
 
-> 🎬 **Live demo of the structure**: the site works out of the box with placeholder images and a `[Name]` placeholder — replace everything with your own content.
+> 🌐 **Live Demo**: [https://abdelrahmansabry85.github.io/birthday-website-template/](https://abdelrahmansabry85.github.io/birthday-website-template/)
+>
+> 🎬 The demo runs with placeholder images and a `[Name]` placeholder — replace everything with your own content.
+
+---
+
+## 🚦 Auto-Deploy Setup (already configured)
+
+This repo deploys to **GitHub Pages** automatically on every push to `main`:
+
+1. The workflow at `.github/workflows/deploy.yml` builds the site (`npm run build`).
+2. The build is published to the `gh-pages` environment via GitHub Pages.
+3. If you fork this repo, go to **Settings → Pages → Source: GitHub Actions** once, and your fork gets its own live demo URL at `https://<your-username>.github.io/<repo-name>/`.
 
 ---
 
