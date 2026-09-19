@@ -1,0 +1,6 @@
+{
+  "name": "Happy Birthday! 🎂",
+  "description": "A little surprise made with love.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

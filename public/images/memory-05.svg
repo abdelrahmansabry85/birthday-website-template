@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <defs>
+    <linearGradient id="bg5" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#F2ECE1"/>
+      <stop offset="100%" stop-color="#E7DAC3"/>
+    </linearGradient>
+    <linearGradient id="gold5" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#C29A4A"/>
+      <stop offset="50%" stop-color="#F2DFB0"/>
+      <stop offset="100%" stop-color="#C29A4A"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bg5)"/>
+  <circle cx="170" cy="170" r="70" fill="#D4AF37" opacity="0.10"/>
+  <circle cx="1050" cy="640" r="85" fill="#B5838D" opacity="0.12"/>
+  <g stroke="#8A7A62" stroke-width="2" opacity="0.5" fill="none">
+    <path d="M 500 380 C 495 520, 510 600, 495 700"/>
+    <path d="M 700 420 C 705 540, 690 620, 705 700"/>
+  </g>
+  <g transform="translate(500 290)">
+    <ellipse cx="0" cy="0" rx="84" ry="106" fill="url(#gold5)"/>
+    <ellipse cx="-28" cy="-34" rx="16" ry="28" fill="#FFFFFF" opacity="0.3"/>
+    <path d="M 0 106 l -12 18 h 24 Z" fill="#A9822F"/>
+  </g>
+  <g transform="translate(700 330)">
+    <ellipse cx="0" cy="0" rx="70" ry="88" fill="#E5989B"/>
+    <ellipse cx="-23" cy="-27" rx="13" ry="23" fill="#FFFFFF" opacity="0.28"/>
+    <path d="M 0 88 l -11 16 h 22 Z" fill="#C97F82"/>
+  </g>
+  <g transform="translate(600 470)">
+    <ellipse cx="0" cy="0" rx="58" ry="72" fill="#C19A6B"/>
+    <ellipse cx="-19" cy="-22" rx="11" ry="19" fill="#FFFFFF" opacity="0.26"/>
+    <path d="M 0 72 l -10 14 h 20 Z" fill="#A5814F"/>
+  </g>
+  <text x="600" y="710" text-anchor="middle" font-family="Georgia, serif" font-style="italic" font-size="30" fill="#8A7A62" opacity="0.75">Your Photo Here</text>
+</svg>

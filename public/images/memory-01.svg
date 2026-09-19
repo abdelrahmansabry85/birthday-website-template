@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <defs>
+    <linearGradient id="bg1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F3EDE4"/>
+      <stop offset="100%" stop-color="#E8DCC8"/>
+    </linearGradient>
+    <linearGradient id="gold1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#C9A24B"/>
+      <stop offset="50%" stop-color="#F0DCAE"/>
+      <stop offset="100%" stop-color="#C9A24B"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bg1)"/>
+  <circle cx="200" cy="150" r="60" fill="#D4AF37" opacity="0.12"/>
+  <circle cx="1020" cy="640" r="90" fill="#9E7444" opacity="0.10"/>
+  <circle cx="950" cy="140" r="35" fill="#B5838D" opacity="0.15"/>
+  <circle cx="260" cy="660" r="45" fill="#D4AF37" opacity="0.10"/>
+  <g transform="translate(600 400)">
+    <rect x="-150" y="-40" width="300" height="220" rx="14" fill="#B5838D"/>
+    <rect x="-150" y="-40" width="300" height="220" rx="14" fill="none" stroke="#8E5F6A" stroke-width="3" opacity="0.35"/>
+    <rect x="-150" y="-40" width="300" height="48" rx="14" fill="#9E7444"/>
+    <rect x="-150" y="-16" width="300" height="24" fill="#9E7444"/>
+    <rect x="-26" y="-40" width="52" height="220" fill="url(#gold1)"/>
+    <path d="M0 -78 C -70 -128, -140 -60, 0 -40 C 140 -60, 70 -128, 0 -78 Z" fill="url(#gold1)" stroke="#A9822F" stroke-width="2"/>
+    <circle cx="0" cy="-72" r="10" fill="#FFF6DF"/>
+  </g>
+  <text x="600" y="700" text-anchor="middle" font-family="Georgia, serif" font-style="italic" font-size="30" fill="#8A7A62" opacity="0.75">Your Photo Here</text>
+</svg>
