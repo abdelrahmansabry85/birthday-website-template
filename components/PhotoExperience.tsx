@@ -3,6 +3,7 @@ import { motion, AnimatePresence } from "motion/react";
 import { ChevronLeft, ChevronRight, Pause, Play, Sparkles } from "lucide-react";
 import { photos as defaultPhotos, PhotoItem } from "../content/photos";
 import { experienceConfig } from "../config/experience";
+import { assetUrl } from "../src/assetUrl";
 
 interface PhotoExperienceProps {
   onComplete: () => void;
@@ -138,7 +139,7 @@ export const PhotoExperience: React.FC<PhotoExperienceProps> = ({
             {/* Fine Art Gallery Mount Frame */}
             <div className="relative p-2.5 sm:p-3.5 bg-white rounded-2xl shadow-xl shadow-stone-800/8 border border-stone-200/90 max-h-[58vh] sm:max-h-[62vh] flex items-center justify-center transition-all duration-500">
               <img
-                src={currentPhoto.src}
+                src={assetUrl(currentPhoto.src)}
                 alt={currentPhoto.caption}
                 referrerPolicy="no-referrer"
                 loading="eager"
@@ -224,7 +225,7 @@ export const PhotoExperience: React.FC<PhotoExperienceProps> = ({
               title={`Memory ${idx + 1}`}
             >
               <img
-                src={photo.src}
+                src={assetUrl(photo.src)}
                 alt={`Thumb ${idx + 1}`}
                 className="w-full h-full object-cover transition-transform duration-500 ease-out"
                 loading="lazy"

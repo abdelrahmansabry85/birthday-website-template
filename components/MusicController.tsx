@@ -2,6 +2,7 @@ import React, { useEffect, useRef, useState } from "react";
 import { motion, AnimatePresence } from "motion/react";
 import { Play, Pause, Volume2, VolumeX, Sparkles } from "lucide-react";
 import { experienceConfig } from "../config/experience";
+import { assetUrl } from "../src/assetUrl";
 
 interface MusicControllerProps {
   isPlaying: boolean;
@@ -163,7 +164,7 @@ export const MusicController: React.FC<MusicControllerProps> = ({
         <div id="yt-audio-player" ref={ytContainerRef} />
         <audio
           ref={audioRef}
-          src={experienceConfig.audio.src}
+          src={assetUrl(experienceConfig.audio.src)}
           loop
           preload="auto"
           onPlay={() => setActivePlaybackState(true)}
